@@ -1,0 +1,27 @@
+.body {
+    /* Define a largura e altura do corpo do site */
+    width: 100%;
+    min-height: 100vh;
+
+    /* Definindo a margem e o preenchimento da página */
+    margin: 0;
+    padding: 0;
+
+    /* Fonte padrão para o site */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+
+    /* Cor do texto e fundo */
+    color: #333;
+    background-color: #f4f4f4;
+
+    /* Alinhamento e centralização do conteúdo */
+    text-align: left;
+
+    /* Define uma área de espaçamento interna */
+    padding: 20px;
+
+    /* Definindo box-sizing para garantir que padding e border não aumentem o tamanho dos elementos */
+    box-sizing: border-box;
+}
