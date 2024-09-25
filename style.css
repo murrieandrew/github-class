@@ -25,3 +25,19 @@
     /* Definindo box-sizing para garantir que padding e border não aumentem o tamanho dos elementos */
     box-sizing: border-box;
 }
+
+/* Ensures the image scales based on the container's width */
+.responsive-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Optional: add styling for the container */
+.image-container {
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
