@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #000;
+  background-color: #02735E;
 
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -32,7 +32,7 @@ body {
   display: flex;
   width: 300px;
   padding: 1rem;
-  background-color: #252525;
+  background-color: #034159;
   border-radius: 0px 0px 12px 12px;
   justify-content: space-between;
   align-items: center;
@@ -59,7 +59,7 @@ body {
 }
 
 .card__info p {
-  color: #919191;
+  color: #ececec;
   font-size: 13px;
   font-weight: 400;
 }
@@ -68,9 +68,9 @@ button {
   padding: 5px 10px;
   border-radius: 10px;
   font-size: 14px;
-  background-color: #2d80ff;
+  background-color: #0cf25d9d;
   font-weight: 400;
-  color: #fff;
+  color: white;
   font-family: inherit;
   cursor: pointer;
   transition: 0.3s all ease;
@@ -106,14 +106,18 @@ button:active {
   left: 0;
   height: 100%;
   width: 100%;
-  object-fit: cover;
-  border-radius: 12px 12px 0px 0px;
+  object-fit: contain;
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  ;
 }
 
 .games {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  
 }
 
 /* all credits of creatian of this code for https://codepen.io/wizxvibing/pen/XWwwqgG /*
+
